@@ -1,0 +1,78 @@
+1. resume data in JSON format
+
+[
+    {
+        "name" : "yugendran",
+        "DOB" : "30.04.2002",
+        "gender" : "male",
+        "father's name" : "xyz",
+        "mother's name" : "yyy",
+        "maritial status" : "single",
+        "languages known" : "tamil",
+        "address" : [
+            {
+                "door no" : "81",
+                "street" : "abcdefgh",
+                "location" : "chennai",
+            
+            
+            }
+        ]
+        "academic qualification" :[
+            {
+                "school" : "antony's",
+                "percentage" : "80",
+                    
+                        "collage" : "AIHT",
+                        "percentage" :"85",
+                    
+                    
+                
+            
+            }
+        ]
+        
+        "extracurricular activities"  : "volleyball",
+        "experience" : "2019",[
+            {
+                "company" : "big corporation",
+            
+            },
+            {
+                "2021",
+
+                "company" : "A small town.ltd",
+            }
+        ]
+    
+
+    }    
+]
+
+
+
+2.JSON iterate [foreach,for of,for in, for]
+
+
+"const students" = ["hari","maddy","rahul","yuke","sandy"];
+students.forEach(function(student));{
+    console.log(students);
+}
+
+"const students" = ["hari","maddy","rahul","yuke","sandy"];
+for (const n of students) {
+    console.log(n);
+}
+
+
+"const students" = ["hari","maddy","rahul","yuke","sandy"];
+
+for (const n in students) {
+    console.log(n);
+}
+
+
+
+"var" a=["0","1","2","3","4","5"];
+for(let i=o; i<5; i++);
+console.log(a);
